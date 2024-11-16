@@ -1,0 +1,21 @@
+ResumeEdge/
+├── backend/
+│   ├── app.py                # Flask API server
+│   ├── routes/
+│   │   ├── upload.py         # Resume upload & parsing
+│   │   ├── analysis.py       # Job description analysis
+│   │   ├── suggestions.py    # AI-based suggestions
+│   └── models/
+│       ├── keyword_extractor.py
+├── frontend/
+│   ├── src/
+│   │   ├── App.js            # React main app
+│   │   ├── components/
+│   │       ├── UploadForm.js
+│   │       ├── Suggestions.js
+│   │       └── Dashboard.js
+│   └── public/
+│       ├── index.html
+├── README.md                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── Dockerfile                # Container configuration
